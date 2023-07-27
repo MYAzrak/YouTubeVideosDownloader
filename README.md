@@ -12,5 +12,5 @@ git clone <repo-link>
 ```
 2. Run a file that you need:
 ```
-python <download_*.py>
+python <download_x.py>
 ```

@@ -1,4 +1,4 @@
-from pytube import YouTube, Playlist
+from pytubefix import YouTube, Playlist
 
 def download_youtube_audio(url):
     try:

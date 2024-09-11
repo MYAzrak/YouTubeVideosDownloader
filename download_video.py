@@ -1,4 +1,5 @@
-from pytube import YouTube
+from pytubefix import YouTube
+
 
 def download_youtube_video(url):
     try:
@@ -14,6 +15,7 @@ def download_youtube_video(url):
         print("Download complete!")
     except Exception as e:
         print(f"An error occurred: {str(e)}")
+
 
 # Provide the YouTube video URL
 video_url = input("Enter the YouTube video URL: ")
